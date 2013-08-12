@@ -108,7 +108,7 @@ namespace Voron.Impl
                               numberOfFlushes,
                               pages.Count(x => x.IsLeaf),
                               pages.Count(x => x.IsBranch),
-                              pages.Count(x => x.IsOverlfow)
+                              pages.Count(x => x.IsOverflow)
                               );
 		}
 
